@@ -76,10 +76,10 @@ keywords: [Python,Convention]
 
 |     Type       |                         |                         |
 |----------------|-------------------------|-----------------------------|
-|     tuple       | (), t.[index]  |        immutable           |
-|     list       | [], l.[index], l.slice[0:n],  l.append(e)  |        mutable  |
-|     dict Map   | dict1 = {'k1':'v1','k2':'v2'},  dict3 = {}, dict3['k1']='v1',  dict2 = dict( zip( [k1, k2], [v1, v2]) )   |   for key,values in  dict1.items():    |
-|     set/frozenset | \{\}, s = set( [iterable] ), s = set([e1,e2,e3]) , s = {e1, e2, e3}    | mutable/immutable |
+|     tuple       | (), t.\[index\]  |        immutable           |
+|     list       | \[\], l.\[index\], l.slice\[0:n\],  l.append(e)  |        mutable  |
+|     dict Map   | dict1 = \{'k1':'v1','k2':'v2'\},  dict3 = \{\}, dict3\['k1'\]='v1',  dict2 = dict( zip( \[k1, k2\], \[v1, v2\]) )   |   for key,values in  dict1.items():    |
+|     set/frozenset | \{\}, s = set( \[iterable\] ), s = set(\[e1,e2,e3\]) , s = \{e1, e2, e3\}    | mutable/immutable |
 
 
 ## Loop
@@ -91,17 +91,17 @@ for k,v in dict1.items():
     print('key=%s value=%s' % (k, v))
     
 for tuple_item in dict1.items():
-    print(tuple_item[0])
+    print(tuple_item\[0\])
 
 # 若 key 有多種 types，則會拋出 TypeError
 for key in sorted(dict1):
-    print(dict1[key])   
+    print(dict1\[key\])   
 ```
 
 * for list with index
 
 ```python
-listA = [7,8,9,10]
+listA = \[7,8,9,10\]
 
 for idx, v in enumerate(listA):
     print(idx, v)

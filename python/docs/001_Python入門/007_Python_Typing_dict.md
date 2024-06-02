@@ -16,13 +16,13 @@ import { CodeBlock, dracula  } from "react-code-blocks";
 > 但，若不同型別在迴圈與 Comprehension 走訪時需注意可能出錯。   
 > 
 > 另外，以中括號取值的操作:  
->> list 的 slice 操作，ex:  list[1:2]  
->> dict 的 get 操作，ex: dict['key']    
+>> list 的 slice 操作，ex:  list\[1:2\]  
+>> dict 的 get 操作，ex: dict\['key'\]    
 
 <CodeBlock text={`
 dict1 = {}
 print(type(dict1))                                                             
-# <class 'dict'>
+# \<class 'dict'\>
     `}
       language='python'
       showLineNumbers='true'
@@ -31,9 +31,9 @@ print(type(dict1))
     
 ## Dict 重點摘要
 
-* 空大括號預設為創建 dict，ex: dict1 = {&emsp;&nbsp;}     
-* put 以中括號賦值，ex: dict1['new_key']='new_value'    
-* get 以中括號取值，ex: fetch = dict1['k']    
+* 空大括號預設為創建 dict，ex: dict1 = \{&emsp;&nbsp;\}     
+* put 以中括號賦值，ex: dict1\['new_key'\]='new_value'    
+* get 以中括號取值，ex: fetch = dict1\['k'\]    
 * values() 取全部值。
 * keys() 取全部 keys。
 * items() 取全部 key-value pairs。
@@ -48,10 +48,10 @@ print(type(dict1))
 <CodeBlock text={`
 basic_dict1 = {}
 print(type(basic_dict1))
-# <class 'dict'>
-basic_dict2 = {'k': 'v', 1: 30}
+# \<class 'dict'\>
+basic_dict2 = \{'k': 'v', 1: 30\}
 print(basic_dict2)
-# {'k': 'v', 1: 30}
+# \{'k': 'v', 1: 30\}
 # then use square quotes to add/get item                                        
     `}
       language='python'
@@ -68,7 +68,7 @@ _equal style，比較容易混亂_ ，我傾向忘了他
 
 <CodeBlock text={`  
 dict_equale = dict(k=1, k2=2)
-# {'k': 1, 'k2': 2}
+# \{'k': 1, 'k2': 2\}
 # 注意 k -> 'k'                                                                              
     `}
       language='python'
@@ -83,9 +83,9 @@ _tuple2 list style1，直接傳入 tuple2 的 sequence_
 > dict function 接受 tuple2 sequence，所以衍生出後續其他變形
 
 <CodeBlock text={`  
-dict_tuples = dict([['key1', 'v1'], ['key2', 'v2']])
-dict_tuples = dict([('key1', 'v1'), ('key2', 'v2')]) # 同於上方範例
-# {'key1': 'v1', 'key2': 'v2'}                                                                              
+dict_tuples = dict(\[\['key1', 'v1'\], \['key2', 'v2'\]\])
+dict_tuples = dict(\[('key1', 'v1'), ('key2', 'v2')\]) # 同於上方範例
+# \{'key1': 'v1', 'key2': 'v2'\}                                                                              
     `}
       language='python'
       showLineNumbers='true'
@@ -94,17 +94,17 @@ dict_tuples = dict([('key1', 'v1'), ('key2', 'v2')]) # 同於上方範例
 <br/>
 
 ### Dict 建構: dict\(\) with dict_items
-_tuple2 list style2，變形A: <class 'dict_items'> _
+_tuple2 list style2，變形A: \<class 'dict_items'\> _
 
 > tuple list style，直接傳入 tuple2 的 sequence。  
-> 所以這邊可以利用 dict.values 得到二元素的 list ie: <class 'dict_items'>。  
+> 所以這邊可以利用 dict.values 得到二元素的 list ie: \<class 'dict_items'\>。  
 > 再利用此特性複製或建構一個新的 dict。  
 
 <CodeBlock text={`  
 print(type(basic_dict2.items()))                                                
 #  <class 'dict_items'>
 dict_unpack = dict(basic_dict2.items())
-# {'k': 'v', 1: 30}
+# \{'k': 'v', 1: 30\}
     `}
       language='python'
       showLineNumbers='true'
@@ -123,10 +123,10 @@ keys = ('a1', 'a2', 'a3')
 values = ('v1', 'v2') # 故意給不同長度測試                                            
 zip_seq = zip(keys, values)
 print(type(zip_seq))
-# <class 'zip'>
+# \<class 'zip'\>
 dict_zip = dict(zip_seq)
 print(dict_zip)
-# {'a1': 'v1', 'a2': 'v2'}
+# \{'a1': 'v1', 'a2': 'v2'\}
 # zip 無法組合部分會被捨棄
     `}
       language='python'
@@ -144,7 +144,7 @@ _dict_fromKeys style 建立有預設值的 dict_
 <CodeBlock text={`  
 deafult_value = 0                                                               
 dict_fromKeys = dict.fromkeys(('k1','k2','k3','k4'), deafult_value)
-# {'k1': 0, 'k2': 0, 'k3': 0, 'k4': 0}
+# \{'k1': 0, 'k2': 0, 'k3': 0, 'k4': 0\}
     `}
       language='python'
       showLineNumbers='true'
@@ -219,7 +219,7 @@ print(auth_book.items())
 * dict 取 value
 * dict 取全部 values
 * dict 取全部 keys
-* dict 取 items, <class 'dict_items'> : python 的特殊功能，取出 dict 中的 pairs。  
+* dict 取 items, \<class 'dict_items'\> : python 的特殊功能，取出 dict 中的 pairs。  
  
 <CodeBlock text={`                                                
 #                                                                               

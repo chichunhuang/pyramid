@@ -1,5 +1,5 @@
 ---
-title: Python 基礎型別摘要
+title: Python 基礎型別摘2
 description: Python 型別:List Dict Set String
 keywords: [Python ,Tutorial]
 ---
@@ -32,9 +32,9 @@ print(l_double)
 ```
    
 * Dict: 大括號(Set, Dict 皆是用大括號), iterable 
-    * dict1 = {'k1':'v1','k2':'v2'}
+    * dict1 = \{'k1':'v1','k2':'v2'\}
     * dict2 = dict( zip( [k1, k2], [v1, v2]) )
-    * dict3 = {}, dict3['k1']='v1'
+    * dict3 = \{\}, dict3['k1']='v1'
     * nested ok
     * 可混用不同型別的 values
     * 可混用不同型別的 keys
@@ -43,7 +43,7 @@ print(l_double)
     * 以中括號取值(與 list 的  slice 操作同符號)
     
 ```python
-dict1 = {'k1':100, 'k2':'abc', 100:'XYZ'}
+dict1 = \{'k1':100, 'k2':'abc', 100:'XYZ'\}
 for key,values in  dict1.items():
     print (key,values)
 # k1 100
@@ -67,9 +67,9 @@ for key in sorted(dict1):
 
 * Set:  大括號, iterable, 分為 set/frozenset 兩類
     * Set : mutable
-    * s = set( [iterable] )  
+    * s = set( \[iterable\] )  
     * s = set((e1,e2,e3)) : built-in method, 傳入 tuple  
-    * s = set([e1,e2,e3]) : built-in method, 傳入 list  
+    * s = set(\[e1,e2,e3\]) : built-in method, 傳入 list  
     * s = set('string') : string 也是 iterable  
     * s = {e1, e2, e3} : 原生非物件的建立方式
     * frozenset : immutable, 基本上與 set 的操作一致，僅差異在於建立後不可修改這件事。

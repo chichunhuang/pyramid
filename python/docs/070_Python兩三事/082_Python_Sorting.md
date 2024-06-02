@@ -77,7 +77,7 @@ print(nums)  # [44, 1, 33, 2, 3, 22, 4, 55, 5]
 ### sorted\(\): Dict/Map Example
 
 > hint: Python Dict 可以轉成 dict_items，針對 dict_items 進行 item 排序。
->  註: dict.items() = <class 'dict_items'>
+>  註: dict.items() = \<class 'dict_items'\>
 >      key = dict_item[0]
 >      value = dict_item[1]
 

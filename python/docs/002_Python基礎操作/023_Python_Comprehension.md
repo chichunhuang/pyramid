@@ -54,7 +54,7 @@ for couple in ret:
 ## Dict Comprehension
 
 * Dict  Comprehension 基本上是將 dict 先轉換成其他 list 再來做 Comprehension 操作。  
-* 例如轉成 <class 'dict_items'> 後再來處理。  
+* 例如轉成 \<class 'dict_items'\> 後再來處理。  
 
 ```python
 dicts = {'A': 'a', 'B': 'b', 'C': 'c', 'D': 'd'}

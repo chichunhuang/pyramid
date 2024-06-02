@@ -121,13 +121,13 @@ print(uString)
 > 以 bytes 集合，如 tuple 呈現為 (72,101,108,108,111)  
 > 以 B String 呈現則為 b'Hello'  
 > 兩者概念相同。B String 則屏除數值轉字母時腦子思考的動作。    
-> bytes 集合/B String 兩者皆可轉成 Python 中內建的 <class 'bytes'> 來統一操作使用。  
-> 而 <class 'bytes'> 與 <class 'str'> 兩類別間則有轉換介面。  
+> bytes 集合/B String 兩者皆可轉成 Python 中內建的 \<class \'bytes\'> 來統一操作使用。  
+> 而 \<class 'bytes'> 與 \<class 'str'> 兩類別間則有轉換介面。  
 > 
-> 簡單來說，可想成 Python 中文字內碼為 <class 'bytes'>，而呈現上可以有多種方式(tuple/B String)。  
+> 簡單來說，可想成 Python 中文字內碼為 \<class 'bytes'>，而呈現上可以有多種方式(tuple/B String)。  
 
 ### String vs bytes 轉換
-   * bytes() 方法轉換 String/Tuple 為 <class 'bytes'>
+   * bytes() 方法轉換 String/Tuple 為 \<class 'bytes'>
        * bytes(str, encoding) 將字串轉 bytes
        * bytes( tuple ) 將數字序列轉 bytes
    * b'content'. __decode(encoding)__ 方法將 bytes 字串轉回 String
@@ -138,7 +138,7 @@ encoding = 'utf-8'
 original = "python 早安"
 converted_to_bytes = bytes(original, encoding)
 print(type(converted_to_bytes)) 
-# <class 'bytes'>
+# \<class 'bytes'>
 print(converted_to_bytes) 
 # b'python \xe6\x97\xa9\xe5\xae\x89'
 print(converted_to_bytes[0]) 
@@ -149,14 +149,14 @@ print(converted_to_bytes[0])
 bs = bytes((65,66,67));
 print(bs) # b'ABC'
 back = bs.decode(encoding)
-print(type(back)) # <class 'str'>
+print(type(back)) # \<class 'str'>
 print(back) # ABC
 
 
 # from bytes to string
 back = converted_to_bytes.decode(encoding)
 print(type(back)) 
-# <class 'str'>
+# \<class 'str'>
 print(back) 
 # python 早安
 
@@ -168,7 +168,7 @@ print(back2)
 ### String vs bytearray 轉換
 > Python 中 bytearray 為 bytes 的變體
 
-   * bytearray() 方法轉換 String/Tuple 為 <class 'bytearray'>
+   * bytearray() 方法轉換 String/Tuple 為 \<class 'bytearray'>
        * bytearray(str, encoding) 將字串轉 bytearray
        * bytearray( tuple ) 將數字序列轉 bytearray
    * b'content'. __decode(encoding)__ 方法將 bytearray 字串轉回 String
@@ -179,20 +179,20 @@ print(back2)
 encoding = 'utf-8'
 text = "ABC 早安"
 ba = bytearray(text, encoding)
-print(type(ba)) # <class 'bytearray'>
+print(type(ba)) # \<class 'bytearray'>
 print(ba) # bytearray(b'ABC \xe6\x97\xa9\xe5\xae\x89')
-print(type(ba[0])) # <class 'int'>
+print(type(ba[0])) # \<class 'int'>
 print(ba[0]) # A(65)
 
 # from integer tuple to bytearray
 ba = bytearray((65,66,67));
 back = ba.decode(encoding)
-print(type(back)) # <class 'str'>
+print(type(back)) # \<class 'str'>
 print(back) # ABC
 
 # from bytearray to string
 back = ba.decode()
-print(type(back)) # <class 'str'>
+print(type(back)) # \<class 'str'>
 print(back) # ABC 早安
 
 ```
@@ -229,7 +229,7 @@ file.close()
 print(content) # 正常顯示內容
 
 # 將內容轉換為指定 encoding: 如 UTF-8
-print(content.encode('UTF-8')) # 得到的是重新編碼後的 <class 'bytes'>
+print(content.encode('UTF-8')) # 得到的是重新編碼後的 \<class 'bytes'>
 
 # 將內容轉換為指定 encoding: 如 Unicode
 print(content.encode('unicode_escape'))
@@ -320,12 +320,12 @@ print(chr(97)) # a
 # Python eval() : from string to python script
 strA = '[1,2,3]'
 print(type(strA))
-# <class 'str'>
+# \<class 'str'>
 
 listA = eval(strA)
 print(type(listA))
 print(listA)
-# <class 'list'>
+# \<class 'list'>
 # [1, 2, 3]
 
 ```
