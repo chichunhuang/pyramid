@@ -97,68 +97,57 @@ const config = {
             type: 'docSidebar', // 在 docs folder下的文章 
             sidebarId: 'totem_sidebar', //ref sidebar.js
             position: 'left',
-               //*****TotemTemplate*****
-            label: 'Banner-----程式技術文章----------',
+            label: 'Python 學習紀錄',
           },
-          // {to: '/docs/Graphics/docs-map', label: 'Graphics', position: 'left'},
-	      {to: '/blog', label: 'Banner-----Blog----------', position: 'left'},
-          //{
-          //  href: 'https://chichunhuang.github.io/slash/blog',
-          //  label: 'GitHub',
-          //  position: 'right',
-          //},
+          {
+            href: 'https://rust.insect-totem.net/',
+            label: 'Rust 學習紀錄',
+            position: 'left',
+          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
             items: [
               {
-                   //*****TotemTemplate*****
-                label: '程式技術文章',
-                   //*****TotemTemplate*****
-                to: '/docs/docs-map',
-              },
-             // {
-              //  label: '我的插圖',
-             //   to: '/docs/Graphics/docs-map',
-             // },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                   //*****TotemTemplate*****
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Insect Totem 主站',
+                href: 'https://insect-totem.net/',
               },
               {
-                   //*****TotemTemplate*****
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Python 學習紀錄',
+                href: 'https://python.insect-totem.net/',
               },
               {
-                   //*****TotemTemplate*****
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Rust 學習紀錄',
+                href: 'https://rust.insect-totem.net/',
               },
             ],
           },
-          {
-            title: 'More',
+          
+        {
+
             items: [
               {
-                   //*****TotemTemplate*****
-                label: 'Blog',
-                to: '/blog',
+                label: 'Burny\'s Gallery : 布妮的美術作品區',
+                href: 'https://chichunhuang.github.io/burning/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/chichunhuang',
+                label: 'Rain\'s Math Zone: Rain 的學習檔案',
+                href: 'https://chichunhuang.github.io/rain/',
               },
+            ],
+          },
+        {
+
+            title: 'About Me',
+            items: [
+              {
+                label: '曾經以為自己會當一個生物學家，後來發現生物學家總是用老方法做事。所以開始開發系統輔佐生物學家進行研究。',
+                href: 'https://insect-totem.net/',
+              },
+              
             ],
           },
         ],
