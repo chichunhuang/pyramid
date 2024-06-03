@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpython=self.webpackChunkpython||[]).push([[3182],{19291:e=>{e.exports=JSON.parse('{"permalink":"/pyramid/en/blog/tags/insect-totem","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

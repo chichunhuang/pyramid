@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpython=self.webpackChunkpython||[]).push([[6666],{38663:e=>{e.exports=JSON.parse('{"permalink":"/pyramid/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

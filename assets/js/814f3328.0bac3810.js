@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpython=self.webpackChunkpython||[]).push([[2535],{45641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u6606\u87f2\u5716\u9a30\u91cd\u65b0\u4e0a\u67b6","permalink":"/python/blog/insect-totem-is-coming"}]}')}}]);
