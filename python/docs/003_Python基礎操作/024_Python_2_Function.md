@@ -7,9 +7,9 @@ import { CodeBlock, dracula  } from "react-code-blocks";
 
 # Python 函數  
 * 參考
-    * [Python Abstract Method 設計方法](../OOP/Python_4_AbstractMethod)
-    * [Instance Object 追加 Method 設計方法  ](../OOP/Python_4_Class#instance-object-append-method)
-    * [Factory Method: 使用 Class Method 語法](../OOP/Python_4_Class_Members#cls_method_Factory)
+    * [Python Abstract Method 設計方法](../Python類別與OOP/Python_4_AbstractMethod)
+    * [Instance Object 追加 Method 設計方法  ](../Python類別與OOP/Python_4_Class#instance-object-append-method)
+    * [Factory Method: 使用 Class Method 語法](../Python類別與OOP/Python_4_Class_Members#cls_method_Factory)
 
 
 ## 函數陷阱  
@@ -184,14 +184,14 @@ print(a.pi)
 * binding : 
     * method 的 signature 中有 self
     * 使用時需先建立 instance
-    * Python 中的 [Simple Method](../OOP/Python_4_Class_Members#Funs_Instance)
+    * Python 中的 [Simple Method](../Python類別與OOP/Python_4_Class_Members#Funs_Instance)
 * Unbinding:
     * method 的 signature 中沒有 self
     * method 冠 @staticmethod annotation
-    * Python 中的 [Simple Method](../OOP/Python_4_Class_Members#Funs_Static)
+    * Python 中的 [Simple Method](../Python類別與OOP/Python_4_Class_Members#Funs_Static)
     * 使用時部需先建立 instance
 
 
 
 ## 同樣是靜態成員: 常數
-* [Python 常數實作方式](./Python_2_Constant)
+* [Python 常數實作方式](../Python特殊操作/Python_2_Constant)

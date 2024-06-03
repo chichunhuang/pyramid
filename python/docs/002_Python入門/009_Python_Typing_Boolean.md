@@ -113,4 +113,4 @@ else:
 
 
 ## 迴圈與條件判斷範例
-* [Python 迴圈與條件](./Python_Loop_Condition)
+* [Python 迴圈與條件](../Python基礎操作/Python_Loop_Condition)

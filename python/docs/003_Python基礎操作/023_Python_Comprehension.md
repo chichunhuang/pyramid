@@ -74,7 +74,7 @@ for d in ret:
 * 這邊的名稱命名不是很一致， Generator Comprehension 指的是使用 Comprehension 的句型來建立 Generator。
 * 註: 
     * range(n) 回傳的是一個 generator 
-    * [Python Generator 說明](./Advanced/Python_2_Generator)
+    * [Python Generator 說明](../Python特殊操作/Python_2_Generator)
 
 ___Generator 範例: basic___
 

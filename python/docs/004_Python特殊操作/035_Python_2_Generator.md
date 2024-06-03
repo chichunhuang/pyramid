@@ -57,7 +57,7 @@ print(isgeneratorfunction(loop))
 
 _Generator Comprehension 範例_
 * 這邊指的是以 Comprehension 語法來建立 generstor
-* 參考 [Generator Comprehension](../Python_Comprehension#generator_comprehension)
+* 參考 [Generator Comprehension](../Python基礎操作/Python_Comprehension#generator_comprehension)
 
 ```python
 # 小括號 comprehension 會建立 generator

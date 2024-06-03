@@ -9,8 +9,8 @@ import { CodeBlock, dracula  } from "react-code-blocks";
 # Python 抽象方法 (Abstract Method)
 
 > 參考: 
->> [Python 函數](../Advanced/Python_2_Function)  
->> [Instance Object 追加 Method](../OOP/Python_4_Class#instance-object-append-method): <span style={{color: '#0044FF'}}> __abstract method 不可以以追加的方式實作__ </span>  
+>> [Python 函數](../Python基礎操作/Python_2_Function)  
+>> [Instance Object 追加 Method](./Python_4_Class#instance-object-append-method): <span style={{color: '#0044FF'}}> __abstract method 不可以以追加的方式實作__ </span>  
 
 
 ## Abstract Method

@@ -132,7 +132,7 @@ except WrongPasswordError as e:
 
 ## With As context management <span id="with_as_codeblock">&nbsp;</span>
 
-* Reference: [With As: 定義一個臨時的 Codeblock](../Python_File#with_as_codeblock) 
+* Reference: [With As: 定義一個臨時的 Codeblock](../Python基礎操作/Python_File#with_as_codeblock) 
 
 > with/as 是一種暫時的程式碼區塊，  
 > 在此也可視為 try/finally 的變種。  

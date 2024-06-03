@@ -293,9 +293,9 @@ ___Python 載入 Modules 時的查詢路徑___
 > 這邊介紹 <span style={{color: '#0044FF'}}> [__from\.\.\. import \* 語法__](#from_import_syntax) </span> (Implicit importing) 時 module 的匯入規則。  
 
 * \_\_init\_\_.py 中 [\_\_all\_\_](#using_package) 列表中的模組一律選取
-* 若未定義 \_\_all\_\_，則反向選取。只限制 [single underscore](../Python_Convention#variable_naming_rules) 成員不導入。
+* 若未定義 \_\_all\_\_，則反向選取。只限制 [single underscore](../Python基礎操作/Python_Convention#variable_naming_rules) 成員不導入。
 * [\_\_all\_\_](#using_package) : 正向列舉
-* [single underscore](../Python_Convention#variable_naming_rules) : 反向排除
+* [single underscore](../Python基礎操作/Python_Convention#variable_naming_rules) : 反向排除
 
 ## <span id="using_package">Package 的使用</span>
 > 

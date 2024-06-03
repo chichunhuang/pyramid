@@ -19,7 +19,7 @@ import { CodeBlock, dracula  } from "react-code-blocks";
 
 > 其他:
 >> 1. 下面介紹的部分也應該注意一下語法中的 key:expression 部分。   
->> 2. Reference :[Python_Sorting_by_Pandas](./Misc/Python_Sorting_by_Pandas)。 
+>> 2. Reference :[Python_Sorting_by_Pandas](./Python_Sorting_by_Pandas)。 
 >> 3. 排序時也可以搭配 operator module 使用。  
 
 

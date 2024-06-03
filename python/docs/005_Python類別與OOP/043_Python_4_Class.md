@@ -124,8 +124,8 @@ print(dog.getGender())
 > 如下:  
 > Pythonic Way 變數命名規則:  
 > 基本上不該建立同名變數  
-> [變數命名規則](../Python_Convention): 例如 class object 追加的成員以 single underscore 為前綴，宣告是 class level。    
-> [常數設計方式](../Advanced/Python_2_Constant): 也許可以用常數或雙底線告知，這是 class level 用的成員。   
+> [變數命名規則](../Python基礎操作/Python_Convention): 例如 class object 追加的成員以 single underscore 為前綴，宣告是 class level。    
+> [常數設計方式](../Python特殊操作/Python_2_Constant): 也許可以用常數或雙底線告知，這是 class level 用的成員。   
 > 
 
 * 這段落僅是個人記憶與理解用，並未深層研究 Python Interpreter 實際運方式作方式。  
@@ -271,7 +271,7 @@ print(str(s)) # Totoem
 > 部分情形下 \_\_repr\_\_() 與 eval() 可互相轉換。   
 >> 這邊指的通常是 Python 內建的類別間可互相轉換   
 > \_\_repr\_\_(): 將 instance 轉成 string  
-> [eval() 則可以將 string 轉回 instance](../Python_Typing_String#eval_fun)  
+> [eval() 則可以將 string 轉回 instance](../Python入門/Python_Typing_String#eval_fun)  
 >  
 >> 同樣可以由 instance/built-in fun 來呼叫:   
 >> 由 instance: x.\_\_repr\_\_() 或  

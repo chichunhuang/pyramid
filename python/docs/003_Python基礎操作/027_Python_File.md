@@ -10,7 +10,7 @@ import { CodeBlock, dracula  } from "react-code-blocks";
 > 通常檔案會牽涉到字串處理，斷行處理  
 > 參考資訊:  
 >
-> [Python String 處理](./Python_Typing_String)  
+> [Python String 處理](../Python入門/Python_Typing_String)  
 >> strip(), replace(), eval(), pickle module      
 >
 > [Python String 格式化](./Python_Typing_StringFormatting)  
@@ -148,7 +148,7 @@ finally:
 * 注意: 這邊需要一個冒號 : 做 Multi-line Block 範圍限定 
 * 臨時區塊使用情境(臨時與收尾動作)
     * 本章節出現多次的 [Closable File Stream](#Closable_FileStream)
-    * [例外處理: with as context management](./Advanced/Python_2_Exception_Error#with_as_codeblock)
+    * [例外處理: with as context management](../Python特殊操作/Python_2_Exception_Error#with_as_codeblock)
     * [臨時的精確度限制區塊](#accurracy)
     * Web 的 socket connection 處理
     * DAO 的 DataSource 的 connection/disconnection 處理
@@ -277,7 +277,7 @@ print(listA)
 
 ## Python 資料夾走訪
 
-* [Python 資料夾走訪](./Misc/Python_3_File_and_Dir)
+* [Python 資料夾走訪](../Python兩三事/Python_3_File_and_Dir)
 
 
 

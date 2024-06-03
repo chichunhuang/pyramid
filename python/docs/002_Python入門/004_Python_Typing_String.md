@@ -314,7 +314,7 @@ print(chr(97)) # a
 
 * 參考: [序列化與反序列化物件]./Python_module_pickle
     * 比較 pickle module vs eval()
-    * [repr()，將 string 轉回 instance](./OOP/Python_4_Class#repr_fun)
+    * [repr()，將 string 轉回 instance](../Python類別與OOP/Python_4_Class#repr_fun)
 
 ```python
 # Python eval() : from string to python script
@@ -331,4 +331,4 @@ print(listA)
 ```
 
 ## 格式化 String (String Formatting)
-### [字串格式化 String Formatting](./Python_Typing_StringFormatting)
+### [字串格式化 String Formatting](../Python基礎操作/Python_Typing_StringFormatting)

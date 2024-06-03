@@ -66,7 +66,7 @@ while n < 0:
 
 ## 條件判斷( Condition : if/elif/else )
 
-> 寫在前面 Python 中 Boolean 判斷的語法糖清參考: [Python Boolean](./Python_Typing_Boolean) 
+> 寫在前面 Python 中 Boolean 判斷的語法糖清參考: [Python Boolean](../Python入門/Python_Typing_Boolean) 
 
 > <span style={{backgroundColor: '#ffd1b3'}}>type checking</span>:     
 > in, not in,  if else  
@@ -312,6 +312,6 @@ if "A" in m.values():
 ## PyCharm 客製化 Code Template <span id="code-template"></span>
 > 我通常會依據自己需求異動預設的 code assistant，畢竟每一種程式語言的迴圈或條件判斷在語法上都有些差異。   
 * [PyCharm Official Tutorial](https://docs.python.org/3.12/reference/datamodel.html#objects-values-and-types)
-* [PyCharm Snippet Template](./IDE/PyCharm_Snippet_Template) 
+* [PyCharm Snippet Template](../IDE/PyCharm_Snippet_Template) 
 
 

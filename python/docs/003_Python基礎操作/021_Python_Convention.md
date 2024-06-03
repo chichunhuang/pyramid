@@ -17,7 +17,7 @@ keywords: [Python,Convention]
 >
 
 ### _Variable Scope_
-* [Python 變數與變數存取範圍](./Advanced/Python_2_Variable_and_Scope)
+* [Python 變數與變數存取範圍](../Python特殊操作/Python_2_Variable_and_Scope)
 
 |                |說明                          |
 |----------------|-------------------------------|

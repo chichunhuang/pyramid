@@ -185,7 +185,7 @@ print(cat.voice())  # Mew~
 > 需注意的是，Python 允許繼承關係間同名變數存在，而 Method Name 也是一種變數名，    
 > 依據 MRO 順序，最接近實例(子類別)的同名方法為顯性。  
 
-* 參考 [Python 打包與解包](../Advanced/Python_2_unpack_lisit_map)
+* 參考 [Python 打包與解包](../Python特殊操作/Python_2_unpack_lisit_map)
 
 
 ## <span id="inheritance_constructor">繼承結構下 Python 建構子 </span>
