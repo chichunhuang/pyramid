@@ -35,6 +35,8 @@ import { CodeBlock, dracula  } from "react-code-blocks";
 > 使用等量的 Space 或是 tab。__建議 4 個 spaces__。  
 > 注意: 整個檔案應該用同一種 indentation，避免混用。
 
+> 另外，Python 用 Indentation 來做 block。所以，Python function / class 等不像 Java 需要大括號做界域。
+
 ## Python 註解方式
 ```python
 
